@@ -1,0 +1,124 @@
+* { 
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------- Footer ------------------------------------------------- */
+footer {
+    min-width: 100vw;
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+.footer__container {
+    max-width: 1300px;
+    background-color: black;
+    text-align: left;
+    font-size: 1.5em;
+    display: flex;
+}
+
+.footer__links {
+    padding-right: 2%;
+    border: 1px solid white;
+    margin: 75px;
+}
+
+.footer__links ul {
+    list-style: none;
+}
+
+.footer__links ul li {
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.footer__links ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.footer__links ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 7.5px;
+}
+
+.footer__social__links {
+    text-align: center;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.footer__social__links a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer__social__links__row__one {
+    padding-top: 50px;
+    padding: 30px;
+}
+
+.footer__social__links__row__two {
+    padding-top: 50px;
+    padding: 30px;
+}
+
+.copyright {
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+#map {
+    height: 350px;
+    width: 350px;
+    margin: 75px;
+  }
+
+  @media all and (max-width: 800px) {
+
+      .footer__container {
+          display: inline;
+          margin: 20px;
+          text-align: center;
+          font-size: 2em;
+      }
+
+      .footer__links {
+          margin: 20px;
+      }
+
+      .footer__social__links {
+          margin: 20px;
+          display: grid;
+          text-align: center;
+      }
+
+      #map {
+          width: 90vw;
+          height: 400px;
+          text-align: center;
+          margin: 0 auto;
+      }
+
+  }
+/* ----------------------------------------- End Footer ----------------------------------------------- */
