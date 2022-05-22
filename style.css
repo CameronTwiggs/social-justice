@@ -270,7 +270,8 @@ body{
 .descriptionTP{
     color: white;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 2px;
+    text-align: center;
 }
 
 .contactTP {
