@@ -270,6 +270,12 @@ body{
 .descriptionTP{
     color: white;
     font-size: 1rem;
+    padding: 1rem;
+}
+
+.contactTP {
+  color: white;
+  padding: 2px;
 }
 
 .tPcolumn {
@@ -297,9 +303,10 @@ body{
   
   .tPtitle {
     color: grey;
+    padding: 15px;
   }
   
-  .button {
+  .tPbutton {
     border: none;
     outline: 0;
     display: inline-block;
@@ -311,7 +318,7 @@ body{
     width: 100%;
   }
   
-  .button:hover {
+  .tPbutton:hover {
     background-color: #555;
   }
 
