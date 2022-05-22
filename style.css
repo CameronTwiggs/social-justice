@@ -143,16 +143,122 @@ ul {
   padding: 20px;
 }
 
+/*------------------------------------------- Team Page ----------------------------------------------*/
+body{
+  background-color: black;
+}
 
+.descriptionTP{
+    color: white;
+    font-size: 1rem;
+    padding: 2px;
+    text-align: center;
+}
 
+.contactTP {
+  color: white;
+  padding: 2px;
+}
 
+.tPcolumn {
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background-color: black;
+  }
+  
+  .tPcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .tPcontainer {
+    padding: 0 16px;
+    background: black;
+  }
+  
+  .tPcontainer::after, .tpRow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .tPtitle {
+    color: grey;
+    padding: 10px;
+  }
+  
+  .tPbutton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .tPbutton:hover {
+    background-color: #555;
+  }
 
+  .team-image {
+      max-height:80px;
+  }
 
+  .tpTop{
+  color: white;
+  font-size: 48px;
+  padding: 10px;
+  text-align: center;
+  margin-top: -100px;
+  }
 
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+    .tpTop{
+      font-size: 14px;
+      
+    }
+    .tPcolumn {
+      float: left;
+      width: 25.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+      background-color: black;
+    }
+    .descriptionTP{
+      font-size: 10px;
+    }
+    .contactTP{
+      font-size: 8px;
+    }
+    .tPtitle {
+      font-size: 8px;
+    }
+    .tPbutton {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 5px;
+      color: white;
+      background-color: grey;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+  }
 
-
-
-
+  @media screen and (max-width: 1000px) {
+    .column {
+        width: 5%;
+    }
+  }
 
 
 
@@ -263,80 +369,3 @@ footer {
 
 }
 /* ----------------------------------------- End Footer ----------------------------------------------- */
-body{
-  background-color: black;
-}
-
-.descriptionTP{
-    color: white;
-    font-size: 1rem;
-    padding: 2px;
-    text-align: center;
-}
-
-.contactTP {
-  color: white;
-  padding: 2px;
-}
-
-.tPcolumn {
-    float: left;
-    width: 30.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    background-color: black;
-  }
-  
-  .tPcard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .tPcontainer {
-    padding: 0 16px;
-    background: black;
-  }
-  
-  .tPcontainer::after, .tpRow::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .tPtitle {
-    color: grey;
-    padding: 15px;
-  }
-  
-  .tPbutton {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: grey;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .tPbutton:hover {
-    background-color: #555;
-  }
-
-  .team-image {
-      max-height:80px;
-  }
-
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-
-  @media screen and (max-width: 1000px) {
-    .column {
-        width: 5%;
-    }
-  }
-
