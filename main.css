@@ -1,6 +1,119 @@
 * { 
     margin: 0px auto;
+
   }
+/* Nav - Kedric */
+
+li, a, button{
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: white;
+}
+.logo{
+    cursor: pointer;
+    margin-left: auto;
+    height: 90px;
+    width: 60px; 
+    color: white;
+
+}
+.nav_links{
+    list-style: none;
+    color: white;
+}
+.nav_links li{
+    display: inline-block;
+    padding:0% 20px;
+    
+}
+
+.nav_links a {
+    color: white;
+}
+
+button{
+    padding:  9px 25px;
+    cursor: pointer;
+    margin-left: 20px;
+    color: white;
+}
+/* Alejandero */
+.mission-statement {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url("images/clasped-hands.jpeg");
+    height: 850px;
+    background-repeat: no-repeat;
+}
+
+.title2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 5px;
+    font-size: 80px;
+}
+
+.description2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+    font-size: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.helping-hands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mini-cards{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 25px;
+        margin-left: 30px;
+        max-width: 600px;
+        background-color:#fdfad4;
+        border-radius: 21px;
+        box-shadow: 0px 14px 32px 0px rgba(0, 0, 0,0.15);
+        
+    }
+    .mini-cards img{
+        border-radius: 10px 0px 0px 10px;
+        width: 60%;
+        height: 200px;
+    }
+    .mini-cards h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+    .mini-cards p{
+        font-size: 20px;
+        font-family: 'Libre Franklin', sans-serif ;
+    }
+    .mini-cards div{
+        padding: 10px 0 10px 10px;
+        
+    }
+
+
+
+
+/* Debora */
+
   .deb{
     padding: 50px;
     font-family: sans-serif;
@@ -142,7 +255,7 @@
   .h4{
     padding: 20px;
   }
-  
+  /* Nawaz */
   /*------------------------------------------- Team Page ----------------------------------------------*/
   body{
     background-color: black;
@@ -260,7 +373,7 @@
     }
   
   
-  
+  /* Sharr */
   /* ------------------------------------------- Footer ------------------------------------------------- */
   footer {
     min-width: 100vw;
