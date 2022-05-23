@@ -11,22 +11,30 @@
    </head>
    <body>
       <!-- Kedric Nav -->
+      <section class="section1Container" id="homepage">
       <header>
+         <section class="title">
+            <section class="logoSection">
+               <figure>
+                  <img src="pics/wb.jpg">
+                  <figcaption><h1>Grow4Change</h1><small>Combatting Food Deserts</small></figcaption>
+               </figure>
+            </section>
+         </section>
          <nav class="nav">
             <ul class="nav__list">
-               <li><button class="btn">Home</button></li>
-               <li><button class="btn">Mission</button></li>
-               <li><button class="btn">Information</button></li>
-               <li><button class="btn">Contact</button></li>
+               <li><a href="#homepage"><button class="btn">Home</button></a></li>
+               <li><a href="#missionSection"><button class="btn">Mission</button></a></li>
+               <li><a href="#solutionsSection"><button class="btn">Information</button></a></li>
+               <li><a href="#contact"><button class="btn">Contact</button></a></li>
             </ul>
          </nav>
-      </header>
-      <!-- Alejandro Mission -->
-      <main>
-         <h1 class="name" id="home">Grow4Change</h1>
-         <p class="name">Combatting Food Deserts</p>
          <img src="./pics/fooddesertbanner.jpeg" alt="fooddesertinfographic" class="banner">
-         <section class="mission">
+      </header>
+   </section>
+      <!-- Alejandro Mission -->
+      
+         <section class="mission" id="missionSection">
             <h2 class="mission__title">Our Mission</h2>
             <div class="wave"></div>
             <p class="mission__text">Here at Grow4Change, we believe in helping our communities.
@@ -57,7 +65,7 @@
             </section>
          </section>
          <!-- Debora Solutions -->
-         <section class="solutions">
+         <section class="solutions" id="solutionsSection">
             <div class="solutions__what">
                <section class="solutions___desert">
                   <h2 class="h">
@@ -129,7 +137,7 @@
                <img class ="teamImage" src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
                <div class="tPcontainer">
                   <h2 class="descriptionTP">Shaar Haq</h2>
-                  <p class="tPtitle">CEO &amp; Founder</p>
+                  <p class="tPtitle">Founder</p>
                   <p class="descriptionTP">Web developer, created our beautiful footer and implemented an API.</p>
                   <p class="contactTP">shaq@r2hstudent.org</p>
                   <p><button class="tPbutton">Contact</button></p>
@@ -220,8 +228,8 @@
                <input type="submit" value="Submit">
             </form>
          </div>
-      </main>
-      <!------------------------------------------- Footer ----------------------------------------------->
+      
+      <!-------------------------------------- Shaar Footer ------------------------------------------------->
       <footer style="clear: both;">
          <section class="footer__container">
             <section class="footer__links">
@@ -240,17 +248,18 @@
                   <a href="#" class="fa fa-snapchat"></a>
                </section>
                <section class="footer__social__links__row__two">
-                  <a href="#" class="fa fa-twitter"></a>
-                  <a href="#" class="fa fa-whatsapp"></a>
                   <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="fa fa-reddit"></a>
+                  <a href="#" class="fa fa-twitter"></a>
                </section>
             </section>
-            <div id="map"></div>
+                  <div id="map"></div>
          </section>
          <section class="copyright">
             <small>Copyright Group 1 R2H Code 4 Justice</small>
          </section>
       </footer>
+      <!----------------------------------- End Shaar Footer ----------------------------------------------->
       <script
          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDgSbIZmhJ8knbg-bjMpF5YEm5O6QF7jU&callback=initMap&v=weekly"
          defer
