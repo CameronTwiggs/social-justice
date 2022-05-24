@@ -2,6 +2,7 @@
 
 	--black: #000000;
 	--white: #FFFFFF;
+	--platinum: #E1E6E1;
   --darkgrey: #D3D3D3;
 }
 
@@ -14,7 +15,7 @@
 }
 
 body {
-	background-color: var(--black);
+	background-color: var(--platinum);
 }
 
 .section1Container {
@@ -26,16 +27,16 @@ body {
 	font-size: 1.4em;
 	box-sizing: content-box;
 	background: none;
-	color: var(--white);
-	border: solid 1px var(--white);
+	color: var(--black);
+	border: solid 1px var(--black);
 	transition-duration: 500ms;
 }
 
 button:hover {
 	letter-spacing: 0.9em;
 	text-indent: 0.9em;
-	color: var(--black);
-	background: var(--white);
+	color: var(--white);
+	background: var(--black);
 	border-radius: 5px;
 }
 
@@ -50,12 +51,12 @@ button:hover {
 /* Nav - Kedric */
 
 .title {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: lighter;
   padding: 0.5em;
-  border: 1px solid var(--white);
-  display: inline-flex;
+  display: flex;
   width: 100%;
+  border-bottom: 2px solid var(--black);
 }
 
 .logoSection figure {
@@ -67,7 +68,7 @@ button:hover {
 }
 
 .logoSection figcaption {
-  padding-top: 0.8em;
+  padding-top: 2.5em;
   padding-left: 0.25em;
 }
 
@@ -81,9 +82,10 @@ button {
 
 header {
 	align-items: center;
+	margin-top: 0;
 	margin: 2em;
 	padding: 1em;
-	color: var(--white);
+	color: var(--black);
 }
 
 .nav {
@@ -98,7 +100,7 @@ header {
 	justify-content: space-between;
 	width: 100%;
 	list-style: none;
-	color: var(--white);
+	color: var(--black);
 	padding: 0;
 	margin: 0 auto;
   flex-wrap: wrap;
@@ -106,10 +108,11 @@ header {
 
 .nav_links li {
 	display: inline-block;
+	color: var(--black);
 }
 
 .nav_links a {
-	color: var(--white);
+	color: var(--black);
 }
 
 
@@ -122,27 +125,33 @@ header {
 	flex-direction: column;
 	width: 90%;
 	flex-wrap: wrap;
+	padding-top: 1em;
+	border-bottom: 1px solid var(--black);
+	border-top: 1px solid var(--black);
+
 }
 
 .mission__title {
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	color: var(--white);
+	color: var(--black);
 	padding-top: 5px;
 	font-size: 4em;
-  flex-wrap: wrap;
+  	flex-wrap: wrap;
+  	font-weight: lighter;
 }
 
 .mission__text {
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	color: var(--white);
+	color: var(--black);
 	padding-top: 20px;
 	padding-bottom: 40px;
 	font-size: 30px;
 	font-family: 'Libre Franklin', sans-serif;
+	font-weight: lighter;
 
 }
 
@@ -157,8 +166,9 @@ header {
 	align-items: center;
 	width: 90%;
 	margin: 2em;
-	color: var(--white);
-	border: solid var(--white) 3px;
+	color: var(--black);
+	border: solid var(--black) 2px;
+	background-color: var(--darkgrey);
 
 }
 
@@ -169,8 +179,11 @@ header {
 
 .mission__cards h2 {
 	font-size: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	font-family: 'Libre Franklin', sans-serif;
+	font-weight: lighter;
+	text-decoration: underline 2px;
+	text-underline-offset: 7.5px;
 }
 
 .mission__cards p {
@@ -186,11 +199,21 @@ header {
 
 /* Debora */
 
+.sectionTitle {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	color: var(--black);
+	padding-top: 5px;
+	font-size: 4em;
+  	flex-wrap: wrap;
+  	font-weight: lighter;
+}
+
 .solutions {
 	padding: 50px;
 	font-family: sans-serif;
-	background-color: var(--black);
-	color: var(--white);
+	color: var(--black);
 	text-align: center;
 	padding-bottom: 100px;
   margin: 0 auto;
@@ -216,11 +239,7 @@ ul {
 	grid-area: right;
 	padding-left: 30px;
 	padding-top: 40px;
-	color: var(--white);
-}
-
-.aside2 ul li {
-	
+	color: var(--black);
 }
 
 .bottom {
@@ -229,16 +248,15 @@ ul {
 }
 
 .solutions__what {
-	border-style: solid;
-	border-color: var(--white);
+	border: 2px solid var(--black);
 	padding: 50px;
 	margin: 50px;
+	display: inline-flex;
 }
 
 
 .s1 {
-	border-style: solid;
-	border-color: var(--white);
+	border: 2px solid var(--black);
 	padding: 50px;
 	margin: 50px;
 	display: grid;
@@ -249,8 +267,7 @@ ul {
 }
 
 .s2 {
-	border-style: solid;
-	border-color: var(--white);
+	border: 2px solid var(--black);
 	padding: 50px;
 	margin: 50px;
 }
@@ -356,14 +373,14 @@ ul {
 
 
 .descriptionTP {
-	color: var(--white);
+	color: var(--black);
 	font-size: 1rem;
 	padding: 2px;
 	text-align: center;
 }
 
 .contactTP {
-	color: var(--white);
+	color: var(--black);
 	padding: 2px;
 }
 
@@ -372,7 +389,8 @@ ul {
 	width: 30.3%;
 	margin-bottom: 16px;
 	padding: 0 8px;
-	background-color: var(--black);
+	background-color: var(--darkgrey);
+	text-align: center;
 }
 
 .tPcard {
@@ -381,7 +399,7 @@ ul {
 
 .tPcontainer {
 	padding: 0 16px;
-	background: var(--black);
+	background: var(--darkgrey);
 }
 
 .tPcontainer::after,
@@ -480,24 +498,24 @@ footer {
 	min-width: 100%;
 	color: var(--white);
 	font-family: sans-serif;
-	background-color: var(--black);
+	background-color: var(--platinum);
   	margin: 1em;
 }
 
 .footer__container {
 	max-width: 1300px;
-	background-color: var(--black);
+	background-color: var(--platinum);
 	text-align: left;
 	font-size: 1.5em;
 	display: inline-flex;
-  border-top: 1px solid var(--white);
-  border-bottom: 1px solid var(--white);
+ 	border-top: 1px solid var(--black);
+  	border-bottom: 1px solid var(--black);
 }
 
 .footer__links {
 	padding: 1em;
-  padding-left: 0;
-	border: 1px solid var(--white);
+  	padding-left: 0;
+	border: 1px solid var(--black);
 	margin: 75px;
 }
 
@@ -512,7 +530,7 @@ footer {
 
 .footer__links ul li a {
 	text-decoration: none;
-	color: var(--white);
+	color: var(--black);
 }
 
 .footer__links ul li a:hover {
@@ -521,14 +539,14 @@ footer {
 }
 
 .footer__social__links {
-  border: 1px solid var(--white);
+  border: 1px solid var(--black);
   margin: auto;
   padding: 3em;
   text-align: center;
 }
 
 .footer__social__links a {
-  color: var(--white);
+  color: var(--black);
   font-size: 1.5em;
   padding: 5px;
   transition-duration: 300ms;
@@ -554,6 +572,7 @@ footer {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	padding: 10px;
   text-align: center;
+  color: var(--black);
 }
 
 #map {
@@ -562,7 +581,7 @@ footer {
 	margin: auto;
   margin-left: 3em;
   margin-right: 2em;
-  border: 1px solid var(--white)
+  border: 1px solid var(--black)
 }
 
 
@@ -644,7 +663,7 @@ footer {
 
 .banner {
 	display: block;
-	width: 75%;
+	width: 100%;
 	padding-bottom: 12em;
 	padding-top: 8em;
 }
@@ -701,16 +720,22 @@ input[type=submit]:hover {
 }
 
 #teamSection {
-  background-color: var(--black);
-  margin: 1em;
+  background-color: var(--platinum);
+  margin: 1.5em;
+  display: flex;
+  text-align: center;
+}
+
+#contact {
+	margin-top: 1em;
 }
 
 .contactContainer {
-  display: flex;
-  background-color: var(--darkgrey);
-  padding: 4em;
-  color: var(--white);
-  margin: 0 auto;
+	display: flex;
+	background-color: var(--darkgrey);
+	padding: 4em;
+	color: var(--white);
+	margin: 1.5em;
 }
 
 .supportPhoto figure img{
@@ -722,11 +747,15 @@ input[type=submit]:hover {
 .contactBox {
   max-height: 34em;
   padding: 4em;
-  padding-top: 0
+  padding-top: 0;
 }
 
 .contactBox h2 {
   color: var(--black);
   text-align: center;
   font-weight: lighter;
+}
+
+form {
+	color: var(--black);
 }
