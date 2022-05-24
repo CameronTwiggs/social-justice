@@ -24,15 +24,18 @@ body {
 
 /* Button Styles */
 .btn {
+	padding: 9px 25px;
 	font-size: 1.4em;
 	box-sizing: content-box;
 	background: none;
 	color: var(--white);
 	border: solid 1px var(--white);
 	transition-duration: 500ms;
+	text-align: center;
+	margin-left: 0;
 }
 
-button:hover {
+.btn:hover {
 	letter-spacing: 0.9em;
 	text-indent: 0.9em;
 	color: var(--black);
@@ -51,7 +54,7 @@ button:hover {
 /* Kedric */
 /* ------------------------------------------- Nav ------------------------------------------------- */
 .title {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: lighter;
   padding: 0.5em;
   border: 1px solid var(--white);
@@ -88,6 +91,7 @@ header {
 }
 
 .nav {
+  margin: .5em 0;
   padding: 1em;
   overflow:unset;
   
@@ -185,7 +189,9 @@ header {
 	padding: 10px 0 10px 10px;
 
 }
-
+a.btn {
+	text-align: center;
+}
 
 /* Debora */
 /* ------------------------------------------- Solutions ------------------------------------------------- */
@@ -353,79 +359,79 @@ ul {
 
 /* Nawaz */
 /*------------------------------------------- Team Page ----------------------------------------------*/
-#teamSection {
+.team {
 	background-color: var(--black);
-	margin: 1em;
-  }
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: var(--white);
+}
 
-.descriptionTP {
+.team__title {
+	display: inline-block;
+	color: var(--white);
+	font-size: 40px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+
+}
+
+.team__card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	height: 50%;
+	border: solid var(--white) 5px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 3em;
+	max-width: 20vw;
+	max-height: 55vh;
+}
+
+.team__card * {
+margin-bottom: 1em;
+}
+
+.team__card__container {
+	margin-bottom: 1em;
+}
+
+.team__card__image {
+	max-height: 20vh;
+
+}
+
+.team__card__container {
+	padding: 0 16px;
+	background: var(--black);
+}
+
+
+.team__card__role {
+	color: grey;
+	padding: 10px;
+}
+
+.team__card__description {
 	color: var(--white);
 	font-size: 1rem;
 	padding: 2px;
 	text-align: center;
 }
 
-.contactTP {
+.team__card__contact {
 	color: var(--white);
 	padding: 2px;
 }
 
-.tPcolumn {
-	float: left;
-	width: 30.3%;
-	margin-bottom: 16px;
-	padding: 0 8px;
-	background-color: var(--black);
-}
 
-.tPcard {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
 
-.tPcontainer {
-	padding: 0 16px;
-	background: var(--black);
-}
 
-.tPcontainer::after,
-.tpRow::after {
-	content: "";
-	clear: both;
-	display: table;
-}
 
-.tPtitle {
-	color: grey;
-	padding: 10px;
-}
 
-.tPbutton {
-	border: none;
-	outline: 0;
-	display: inline-block;
-	padding: 8px;
-	color: var(--white);
-	background-color: grey;
-	text-align: center;
-	cursor: pointer;
-	width: 100%;
-}
-
-.tPbutton:hover {
-	background-color: #555;
-}
-
-.team-image {
-	max-height: 80px;
-}
-
-.tpTop {
-	color: var(--white);
-	font-size: 40px;
-	padding: 5px;
-	text-align: center;
-	margin-top: 10px;
-}
 
 @media screen and (max-width: 650px) {
 	.column {
@@ -445,19 +451,19 @@ ul {
 		background-color: var(--black);
 	}
 
-	.descriptionTP {
+	.team__card__description {
 		font-size: 10px;
 	}
 
-	.contactTP {
+	.team__card__contact {
 		font-size: 8px;
 	}
 
-	.tPtitle {
+	.team__card__role {
 		font-size: 8px;
 	}
 
-	.tPbutton {
+	.team__card__button {
 		border: none;
 		outline: 0;
 		display: inline-block;
@@ -587,6 +593,7 @@ footer {
 	border: 1px solid var(--white);
 	margin: 75px;
 }
+
 
 .footer__links ul {
 	list-style: none;

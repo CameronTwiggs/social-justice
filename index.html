@@ -12,22 +12,23 @@
    <body>
       <!-- Kedric Nav -->
       <section class="section1Container" id="homepage">
+      <h1 style="display: none;">Grow4Change</h1> <!-- This is for screenreaders-->
       <header>
          <section class="title">
-            <section class="logoSection">
+            <div class="logoSection">
                <figure>
-                  <img src="pics/wb.jpg">
-                  <figcaption><h1>Grow4Change</h1><small>Combatting Food Deserts</small></figcaption>
+                  <img src="./pics/wb.jpg" alt="logo">
+                  <figcaption><h2>Grow4Change</h2><small>Combatting Food Deserts</small></figcaption>
                </figure>
-            </section>
+            </div>
          </section>
          <nav class="nav">
             <ul class="nav__list">
-               <li><a href="#homepage"><button class="btn">Home</button></a></li>
-               <li><a href="#missionSection"><button class="btn">Mission</button></a></li>
-               <li><a href="#solutionsSection"><button class="btn">Information</button></a></li>
-               <li><a href="#teamSection"><button class="btn">The Team</button></a></li>
-               <li><a href="#contact"><button class="btn">Contact</button></a></li>
+               <li><a class="btn" href="#homepage">Home</a></li>
+               <li><a class="btn" href="#missionSection">Mission</a></li>
+               <li><a class="btn" href="#solutionsSection">Information</a></li>
+               <li><a class="btn" href="#teamSection">The Team</a></li>
+               <li><a class="btn" href="#contact">Contact</a></li>
             </ul>
          </nav>
          <img src="./pics/fooddesertbanner.jpeg" alt="fooddesertinfographic" class="banner">
@@ -70,24 +71,24 @@
             <div class="solutions__what">
                <section class="solutions___desert">
                   <h2 class="h">
-                  What is a food desert?</h1>
+                  What is a food desert?</h2>
                   <img src="./pics/Food-Desert.jpeg" alt="desert" class="desert">
                   <p>An area where access to affordable nutritious food is limited or even nonexistant. There are no grocery stores within a reasonable distance.</p>
                </section>
                <section class="where">
                   <h2>
-                  Where does this occur?</h1>
+                  Where does this occur?</h2>
                   <p>All over the United States especially in low income areas in both rural and urban communities. There are 23 million Americans living in food deserts.</p>
                </section>
                <section class="w">
                   <h2>
-                  What can we do about it?</h1>
+                  What can we do about it?</h2>
                   <p>Through community organizing we can find solutions</p>
                </section>
             </div>
             <div class="s1">
                <header class="header">
-                  <h2class="h2">Community Gardens</h1>
+                  <h2 class="h2">Community Gardens</h2>
                   <h2>The people's garden</h2>
                   <p>A garden cultivated by a group of people for the benefit of the whole community</p>
                </header>
@@ -124,95 +125,88 @@
                </section>
             </div>
             <div class="s2">
-               <h2class="h3">Farmer's Markets</h1>
+               <h2 class="h3">Farmer's Markets</h2>
                <h2 class="h4">A place where local farmers can sell their produce directly to the community</h2>
                <p>Markets are flexible and relatively easy to set up since they don't require a permanent structure. They improve social ties and create a connection between rural and urban communities. Farmers benefit from selling directly instead of through a middleman. The community benefits from local access to fresh seasonal food.</p>
                <img src="./pics/farmers-market-produce-0812211.webp" class="fm" alt="market"> 
             </div>
          </section>
-         <!------------------------------------------- Nawaz Team Page ----------------------------------------------->
-         <section id="teamSection">
-            <p class="tPTop">Meet our team!</p>
-            <div class="tpRow">
-            <div class="tPcolumn">
-               <div class="tPcard">
-                  <img class ="teamImage" src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
-                  <div class="tPcontainer">
-                     <h2 class="descriptionTP">Shaar Haq</h2>
-                     <p class="tPtitle">Founder</p>
-                     <p class="descriptionTP">Web developer, created our beautiful footer and implemented an API.</p>
-                     <p class="contactTP">shaq@r2hstudent.org</p>
-                     <p><button class="tPbutton">Contact</button></p>
+         <!-- Nawaz Team -->
+         <section class="team" id="teamSection">
+            
+               <h2 style="display:none">Meet the team</h2>  <!-- This is for screen readers -->
+               <div class="team__card">
+                  <img class ="team__card__image" src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
+                  <div class="team__card__container">
+                     <h2 class="team__card__name">Shaar Haq</h2>
+                     <p class="team__card__role">Founder</p>
+                     <p class="team__card__description">Web developer, created our beautiful footer and implemented an API.</p>
+                     <p class="team__card__contact">shaq@r2hstudent.org</p>
+                     <p><button class="team__card__button btn">Contact</button></p>
                   </div>
                </div>
-            </div>
-            <div class="tpRow">
-            <div class="tPcolumn">
-               <div class="tPcard">
-                  <img class ="teamImage"  src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
-                  <div class="tPcontainer">
-                     <h2 class="descriptionTP">Cameron Twiggs</h2>
-                     <p class="tPtitle">Founder</p>
-                     <p class="descriptionTP">A natural born leader, Cameron has acted as project manager and also handled everything git.</p>
-                     <p class="contactTP">ctwiggs@r2hstudent.org</p>
-                     <p><button class="tPbutton">Contact</button></p>
+
+
+               <div class="team__card">
+                  <img class ="team__card__image"  src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
+                  <div class="team__card__container">
+                     <h2 class="team__card__name">Cameron Twiggs</h2>
+                     <p class="team__card__role">Founder</p>
+                     <p class="team__card__description">A natural born leader, Cameron has acted as project manager and also handled everything git.</p>
+                     <p class="team__card__contact">ctwiggs@r2hstudent.org</p>
+                     <p><button class="team__card__button btn">Contact</button></p>
                   </div>
                </div>
-            </div>
-            <div class="tpRow">
-            <div class="tPcolumn">
-               <div class="tPcard">
-                  <img class ="teamImage" src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
-                  <div class="tPcontainer">
-                     <h2 class="descriptionTP">Debora Marinca</h2>
-                     <p class="tPtitle">Founder</p>
-                     <p class="descriptionTP">Visionary and web developer, Debora broke the ground for creating this website.</p>
-                     <p class="contactTP">dmarinca@r2hstudent.org</p>
-                     <p><button class="tPbutton">Contact</button></p>
+
+
+               <div class="team__card">
+                  <img class ="team__card__image" src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
+                  <div class="team__card__container">
+                     <h2 class="team__card__name">Debora Marinca</h2>
+                     <p class="team__card__role">Founder</p>
+                     <p class="team__card__description">Visionary and web developer, Debora broke the ground for creating this website.</p>
+                     <p class="team__card__contact">dmarinca@r2hstudent.org</p>
+                     <p><button class="team__card__button btn">Contact</button></p>
                   </div>
                </div>
-            </div>
-            <div class="tpRow">
-            <div class="tPcolumn">
-               <div class="tPcard">
-                  <img class ="teamImage" src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
-                  <div class="tPcontainer">
-                     <h2 class="descriptionTP">Nawaz Haque</h2>
-                     <p class="tPtitle">Founder</p>
-                     <p class="descriptionTP">Web developer, created the team page you're currently reading.</p>
-                     <p class="contactTP">nhaque@r2hstudent.org</p>
-                     <p><button class="tPbutton">Contact</button></p>
+
+               <div class="team__card">
+                  <img class ="team__card__image" src="./pics/Imagay1.jpg" alt="Jane" style="width:100%">
+                  <div class="team__card__container">
+                     <h2 class="team__card__name">Nawaz Haque</h2>
+                     <p class="team__card__role">Founder</p>
+                     <p class="team__card__description">Web developer, created the team page you're currently reading.</p>
+                     <p class="team__card__contact">nhaque@r2hstudent.org</p>
+                     <p><button class="team__card__button btn">Contact</button></p>
                   </div>
                </div>
-            </div>
-            <div class="tpRow">
-            <div class="tPcolumn">
-               <div class="tPcard">
-                  <img class ="teamImage" src="./pics/Imagay1.jpg" alt="kedric" style="width:100%">
-                  <div class="tPcontainer">
-                     <h2 class="descriptionTP">Kedric Fulton</h2>
-                     <p class="tPtitle">Founder</p>
-                     <p class="descriptionTP">Kedric is a web developer who isn't afraid to get involved. Our nav bar was created by him.</p>
-                     <p class="contactTP">kfulton@r2hstudent.org</p>
-                     <p><button class="tPbutton">Contact</button></p>
+
+               <div class="team__card">
+                  <img class ="team__card__image" src="./pics/Imagay1.jpg" alt="kedric" style="width:100%">
+                  <div class="team__card__container">
+                     <h2 class="team__card__name">Kedric Fulton</h2>
+                     <p class="team__card__role">Founder</p>
+                     <p class="team__card__description">Kedric is a web developer who isn't afraid to get involved. Our nav bar was created by him.</p>
+                     <p class="team__card__contact">kfulton@r2hstudent.org</p>
+                     <p><button class="team__card__button btn">Contact</button></p>
                   </div>
                </div>
-            </div>
-            <div class="tpRow">
-            <div class="tPcolumn">
-               <div class="tPcard">
-                  <img class ="teamImage" src="./pics/Imagay1.jpg" alt="alejandro" style="width:100%">
-                  <div class="tPcontainer">
-                     <h2 class="descriptionTP">Alejandro Martinez</h2>
-                     <p class="tPtitle">Founder</p>
-                     <p class="descriptionTP">Dependable and reliable, all you need in a web developer. Alejandro created our mission statement page.</p>
-                     <p class="contactTP">amartinez@r2hstudent.org</p>
-                     <p ><button class="tPbutton">Contact</button></p>
+
+
+               <div class="team__card">
+                  <img class ="team__card__image" src="./pics/Imagay1.jpg" alt="alejandro" style="width:100%">
+                  <div class="team__card__container">
+                     <h2 class="team__card__name">Alejandro Martinez</h2>
+                     <p class="team__card__role">Founder</p>
+                     <p class="team__card__description">Dependable and reliable, all you need in a web developer. Alejandro created our mission statement page.</p>
+                     <p class="team__card__contact">amartinez@r2hstudent.org</p>
+                     <p ><button class="team__card__button btn">Contact</button></p>
                   </div>
                </div>
-            </div>
+
          </section>
-               <form action="/action_page.php">
+         <!-- Cam + Shaar Footer -->
+               <form action="/action_page.php" id="contact">
                   <div class="form__icon"></div>
                   <h2 class="form__title">Need Help?</h2>
                   <label for="name">Name</label>
@@ -220,7 +214,7 @@
                   <label for="email">Email</label>
                   <input class="form__input" type="email" id="email" name="email" placeholder="Email...">
                   <label for="location">Location</label>
-                  <select class="form__input" id="location" name="location" aria-placeholder="location">
+                  <select class="form__input" id="location" name="location">
                      <option value="austin">Austin</option>
                      <option value="Atlanta">Atlanta</option>
                      <option value="Charlotte">Charlotte</option>
@@ -231,7 +225,7 @@
                   <textarea class="form__input" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                   <input class="form__button" type="submit" value="Submit">
                </form>
-      <!-------------------------------------- Shaar Footer ------------------------------------------------->
+      <!-- Shaar Footer -->
       <footer style="clear: both;">
          <section class="footer__container">
             <section class="footer__links">
@@ -245,14 +239,14 @@
             </section>
             <section class="footer__social__links">
                <section class="footer__social__links__row__one">
-                  <a href="#" class="fa fa-facebook"></a>
-                  <a href="#" class="fa fa-instagram"></a>
-                  <a href="#" class="fa fa-snapchat"></a>
+                  <a href="#" class="fa fa-facebook"><span style="display:none;">Facebook</span></a>
+                  <a href="#" class="fa fa-instagram"><span style="display:none;">Instagram</span></a>
+                  <a href="#" class="fa fa-snapchat"><span style="display:none;">Snapchap</span></a>
                </section>
                <section class="footer__social__links__row__two">
-                  <a href="#" class="fa fa-linkedin"></a>
-                  <a href="#" class="fa fa-reddit"></a>
-                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-linkedin"><span style="display:none;">LinkedIn</span></a>
+                  <a href="#" class="fa fa-reddit"><span style="display:none;">Reddit</span></a>
+                  <a href="#" class="fa fa-twitter"><span style="display:none;">Twitter</span></a>
                </section>
             </section>
                   <div id="map"></div>
@@ -261,7 +255,7 @@
             <small>Copyright Group 1 R2H Code 4 Justice</small>
          </section>
       </footer>
-      <!----------------------------------- End Shaar Footer ----------------------------------------------->
+      <!-- End Shaar Footer -->
       <script
          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDgSbIZmhJ8knbg-bjMpF5YEm5O6QF7jU&callback=initMap&v=weekly"
          defer
