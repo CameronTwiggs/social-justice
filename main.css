@@ -11,6 +11,7 @@
   	max-width: 1300px;
   	margin: 0 auto;
   	font-family: sans-serif;
+
 }
 
 body {
@@ -220,9 +221,6 @@ ul {
 	color: var(--white);
 }
 
-.aside2 ul li {
-	
-}
 
 .bottom {
 	grid-area: bottom;
@@ -616,7 +614,7 @@ footer {
     background: var(--white);
   }
 
-  .contactContainer {
+.contactContainer {
   display: flex;
   flex-direction: column;
 }
@@ -644,10 +642,10 @@ footer {
 /* ----------------------------------------- End Footer ----------------------------------------------- */
 
 .banner {
-	display: block;
 	width: 100%;
 	padding-bottom: 12em;
 	padding-top: 8em;
+	margin-bottom:1em;
 }
 
 .name {
@@ -670,22 +668,75 @@ button {
 /*------------------------------------------- Team Page ----------------------------------------------*/
 
 
-/*contact*/
-input[type=text],
-select,
-textarea {
+/*contact Cam + Sharr*/ 
+
+form {
+	padding: 2em;
+	border: solid var(--white) 5px;
+	margin: 5em auto ;
+	width: 80%;
+}
+
+form label {
+	display: none;
+}
+
+.form__icon{ 
+	height: 100px;
+	width: 100px;
+	background-image: url("./pics/assets/support--white.png");
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.form__title {
+	letter-spacing: 1em;
+	text-indent: 1em;
+	font-size: 3em;
+	text-align: center;
+	color: var(--white);
+	margin: 1em;
+	transition-duration: 500ms;
+}
+
+.form__title:hover {
+	letter-spacing: 1px;
+	text-indent: 1px;
+	background-color: var(--white);
+	color: var(--black);
+}
+
+
+.form__input {
+	background-color: transparent;
+	border-style: none none none;
+	border-bottom: var(--white) solid 4px;
+	border-radius: 0px;
 	width: 100%;
 	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
 	box-sizing: border-box;
 	margin-top: 6px;
 	margin-bottom: 16px;
 	resize: vertical;
+	color: var(--white);
+	transition-duration: 200ms;
+	font: 1.5em Arial, Helvetica, sans-serif;
+
 }
 
-input[type=submit] {
-	background-color: black;
+.form__input:focus {
+	outline: none !important;
+	border: solid var(--white);
+}
+
+option {
+	color: var(--black);
+	background-color: var(--white);
+}
+
+
+.form__button {
+	background-color: var(--black);
 	color: var(--white);
 	padding: 12px 20px;
 	cursor: pointer;
@@ -694,40 +745,16 @@ input[type=submit] {
   transition-duration: 300ms;
 }
 
-input[type=submit]:hover {
+.form__button:hover {
 	background-color: var(--white);
   color: var(--black);
   border: 1px solid var(--black);
 
 }
 
+
 #teamSection {
   background-color: var(--black);
   margin: 1em;
 }
 
-.contactContainer {
-  display: flex;
-  background-color: var(--darkgrey);
-  padding: 4em;
-  color: var(--white);
-  margin: 0 auto;
-}
-
-.supportPhoto figure img{
-  color: var(--white);
-  max-height: 34em;
-  margin: 1em;
-}
-
-.contactBox {
-  max-height: 34em;
-  padding: 4em;
-  padding-top: 0
-}
-
-.contactBox h2 {
-  color: var(--black);
-  text-align: center;
-  font-weight: lighter;
-}
