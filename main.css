@@ -2,15 +2,15 @@
 
 	--black: #000000;
 	--white: #FFFFFF;
-  --darkgrey: #D3D3D3;
+	--darkgrey: #D3D3D3;
 }
 
 * {
 	box-sizing: border-box;
-  	scroll-behavior: smooth;
-  	max-width: 1300px;
-  	margin: 0 auto;
-  	font-family: sans-serif;
+	scroll-behavior: smooth;
+	max-width: 1300px;
+	margin: 0 auto;
+	font-family: sans-serif;
 
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .section1Container {
-  height: 100vh;
+	height: 100vh;
 }
 
 /* Button Styles */
@@ -44,35 +44,35 @@ body {
 }
 
 .wave {
-  width: 100%;
-  height: 50px;
-  background-image: url("./pics/assets/wave.svg");
-  background-position: center;
-  background-repeat: no-repeat;
+	width: 100%;
+	height: 50px;
+	background-image: url("./pics/assets/wave.svg");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* Kedric */
 /* ------------------------------------------- Nav ------------------------------------------------- */
 .title {
-  font-size: 2.5em;
-  font-weight: lighter;
-  padding: 0.5em;
-  border: 1px solid var(--white);
-  display: inline-flex;
-  width: 100%;
+	font-size: 2.5em;
+	font-weight: lighter;
+	padding: 0.5em;
+	border: 1px solid var(--white);
+	display: inline-flex;
+	width: 100%;
 }
 
 .logoSection figure {
-  display: inline-flex;
+	display: inline-flex;
 }
 
-.logoSection figure img{
-  max-height: 150px;
+.logoSection figure img {
+	max-height: 150px;
 }
 
 .logoSection figcaption {
-  padding-top: 0.8em;
-  padding-left: 0.25em;
+	padding-top: 0.8em;
+	padding-left: 0.25em;
 }
 
 li,
@@ -91,10 +91,10 @@ header {
 }
 
 .nav {
-  margin: .5em 0;
-  padding: 1em;
-  overflow:unset;
-  
+	margin: .5em 0;
+	padding: 1em;
+	overflow: unset;
+
 }
 
 
@@ -106,7 +106,7 @@ header {
 	color: var(--white);
 	padding: 0;
 	margin: 0 auto;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .nav_links li {
@@ -189,6 +189,7 @@ header {
 	padding: 10px 0 10px 10px;
 
 }
+
 a.btn {
 	text-align: center;
 }
@@ -202,9 +203,9 @@ a.btn {
 	color: var(--white);
 	text-align: center;
 	padding-bottom: 100px;
-  margin: 0 auto;
-  text-align: center;
-  min-width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	min-width: 75%;
 }
 
 ul {
@@ -338,7 +339,7 @@ ul {
 .desert {
 	padding-top: 20px;
 	padding-bottom: 10px;
-  max-height: 20vh;
+	max-height: 20vh;
 }
 
 .where {
@@ -392,7 +393,7 @@ ul {
 }
 
 .team__card * {
-margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 .team__card__container {
@@ -426,11 +427,6 @@ margin-bottom: 1em;
 	color: var(--white);
 	padding: 2px;
 }
-
-
-
-
-
 
 
 @media screen and (max-width: 650px) {
@@ -481,13 +477,14 @@ margin-bottom: 1em;
 		width: 5%;
 	}
 }
+
 /* Cam + Sharr */
 /* ------------------------------------------- Form ------------------------------------------------- */
 
 form {
 	padding: 2em;
 	border: solid var(--white) 5px;
-	margin: 5em auto ;
+	margin: 5em auto;
 	width: 80%;
 }
 
@@ -495,7 +492,7 @@ form label {
 	display: none;
 }
 
-.form__icon{ 
+.form__icon {
 	height: 100px;
 	width: 100px;
 	background-image: url("./pics/assets/support--white.png");
@@ -555,14 +552,14 @@ option {
 	padding: 12px 20px;
 	cursor: pointer;
 	display: block;
-  border: 1px solid var(--white);
-  transition-duration: 300ms;
+	border: 1px solid var(--white);
+	transition-duration: 300ms;
 }
 
 .form__button:hover {
 	background-color: var(--white);
-  color: var(--black);
-  border: 1px solid var(--black);
+	color: var(--black);
+	border: 1px solid var(--black);
 
 }
 
@@ -574,7 +571,7 @@ footer {
 	color: var(--white);
 	font-family: sans-serif;
 	background-color: var(--black);
-  	margin: 1em;
+	margin: 1em;
 }
 
 .footer__container {
@@ -583,13 +580,13 @@ footer {
 	text-align: left;
 	font-size: 1.5em;
 	display: inline-flex;
-  border-top: 1px solid var(--white);
-  border-bottom: 1px solid var(--white);
+	border-top: 1px solid var(--white);
+	border-bottom: 1px solid var(--white);
 }
 
 .footer__links {
 	padding: 1em;
-  padding-left: 0;
+	padding-left: 0;
 	border: 1px solid var(--white);
 	margin: 75px;
 }
@@ -615,62 +612,61 @@ footer {
 }
 
 .footer__social__links {
-  border: 1px solid var(--white);
-  margin: auto;
-  padding: 3em;
-  text-align: center;
+	border: 1px solid var(--white);
+	margin: auto;
+	padding: 3em;
+	text-align: center;
 }
 
 .footer__social__links a {
-  color: var(--white);
-  font-size: 1.5em;
-  padding: 5px;
-  transition-duration: 300ms;
+	color: var(--white);
+	font-size: 1.5em;
+	padding: 5px;
+	transition-duration: 300ms;
 }
 
 .footer__social__links a:hover {
-  transform: translate(0px, -10px);
+	transform: translate(0px, -10px);
 }
 
-.footer__social__links__row__one a{
-  padding-left: 20px;
-  padding-right: 20px;
+.footer__social__links__row__one a {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.footer__social__links__row__two a{
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
+.footer__social__links__row__two a {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
 }
 
 .copyright {
 	font-size: 1em;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	padding: 10px;
-  text-align: center;
+	text-align: center;
 }
 
 #map {
 	height: 15em;
 	width: 15em;
 	margin: auto;
-  margin-left: 3em;
-  margin-right: 2em;
-  border: 1px solid var(--white)
+	margin-left: 3em;
+	margin-right: 2em;
+	border: 1px solid var(--white)
 }
-
 
 
 @media all and (max-width: 800px) {
 
-  /* Footer Media Queries */
+	/* Footer Media Queries */
 
 	.footer__container {
-	display: flex;
-    flex-direction: column;
-	text-align: center;
-	font-size: 2em;
-    width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		font-size: 2em;
+		width: 100%;
 	}
 
 	.footer__links {
@@ -681,23 +677,23 @@ footer {
 		margin: 1em;
 		display: grid;
 		text-align: center;
-    justify-content: center;
+		justify-content: center;
 	}
 
-  .footer__social__links a {
-    padding: 15px;
-  }
+	.footer__social__links a {
+		padding: 15px;
+	}
 
 
 	#map {
 		margin: 2em;
 		display: flex;
 		text-align: center;
-    justify-content: center;
-    width: 80%;
+		justify-content: center;
+		width: 80%;
 	}
-	
-  /* End Footer Media Queries */
+
+	/* End Footer Media Queries */
 
 }
 
@@ -707,11 +703,11 @@ footer {
 	width: 100%;
 	padding-bottom: 12em;
 	padding-top: 8em;
-	margin-bottom:1em;
+	margin-bottom: 1em;
 }
 
 .name {
-  font-size: 0.35em;
+	font-size: 0.35em;
 }
 
 
